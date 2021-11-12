@@ -3,7 +3,7 @@ body {
 }
 
 .bg-image {
-    background-image: url("/img/gray-bike2.jpg");
+    background-image: url("img/gray-bike2.jpg");
     height: 100vh;
     background-position: bottom;
     background-size: cover;
@@ -57,7 +57,7 @@ body {
 }
 
 .bg-image2 {
-    background-image: url("/img/orange-snow-bike.jpg");
+    background-image: url("img/orange-snow-bike.jpg");
     background-position: center;
     background-size: cover;
     height: 425px;
@@ -86,7 +86,7 @@ footer {
 
 @media screen and (max-width:768px) {
     .bg-image {
-        background-image: url("/img/gray-bike3.jpg");
+        background-image: url("img/gray-bike3.jpg");
         height: 60vh;
         background-position: center;
         background-size: cover;
