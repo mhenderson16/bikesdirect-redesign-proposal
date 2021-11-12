@@ -1,0 +1,117 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-image {
+    background-image: url("/img/gray-bike2.jpg");
+    height: 100vh;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.btn-shop {
+    background-color: #EF1D10;
+    color: white;
+}
+
+.hero {
+    background-color: rgba(255, 255, 255, 0.72);
+    height: 285px;
+    width: 470px;
+    margin-top: 75px;
+    margin-left: 50px;
+}
+
+.intro {
+    background-color: #395E88;
+    padding-left: 220px;
+    padding-right: 220px;
+}
+
+.intro p {
+    color: white;
+}
+
+.bike-cards {
+    margin-top: 100px;
+}
+
+.cards {
+    border: none;
+}
+
+.card-footer {
+    background-color: white;
+    border: none;
+}
+
+.guide {
+    background-color: #395E88;
+    color: white;
+    height: 425px;
+}
+
+.guide p {
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.bg-image2 {
+    background-image: url("/img/orange-snow-bike.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 425px;
+}
+
+.ship {
+    color: #EF1D10;
+    height: 150px;
+}
+
+.ship p {
+    margin-top: 1rem;
+}
+
+.icon {
+    color: black;
+}
+
+footer {
+    background-color: #C4c4c4;
+}
+
+.copy {
+    font-size: .75em;
+}
+
+@media screen and (max-width:768px) {
+    .bg-image {
+        background-image: url("/img/gray-bike3.jpg");
+        height: 60vh;
+        background-position: center;
+        background-size: cover;
+    }
+    .intro {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .guide h5 {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .guide p {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:992px) {
+    .intro {
+        padding-right: 100px;
+        padding-left: 100px;
+    }
+    .guide p {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
